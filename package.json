@@ -1,5 +1,5 @@
 {
-	"name": "-minecraft-server-cli",
+	"name": "minecraft-server-cli",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -18,5 +18,9 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"ink": "^4.3.1",
+		"meow": "^12.0.1"
+	}
 }
